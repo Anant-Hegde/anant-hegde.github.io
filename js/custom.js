@@ -1,5 +1,6 @@
 // Custom Script
-// Developed by: Samson.Onna
+
+
 var customScripts = {
     profile: function () {
         // portfolio
@@ -106,6 +107,19 @@ var customScripts = {
 $('document').ready(function () {
     customScripts.init();
 });
+/*	Preloader
+/* ========================================================================= */
+
+jQuery(window).load(function(){
+
+	$("#preloader").delay(2000).fadeOut("slow");
+
+});
+
+
+
+
+	/* ========================================================================= */
 
 
 

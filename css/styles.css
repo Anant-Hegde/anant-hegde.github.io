@@ -963,3 +963,48 @@ footer {
         color: #a5a5a5;
         letter-spacing: 1px;
     }
+
+
+    #preloader {
+        background-color: #262626;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        z-index: 1100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #preloader > img {
+        display: block;
+        left: auto;
+        right: auto;
+        
+        top: auto;
+        bottom: auto;
+        width: 50%;
+      }
+
+      #keepintouch {
+        color: white;
+      }
+
+      #contactUs  {
+        background-image: url(../images/contactbanner.jpg);
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+      }
+
+      
+      .contactpage {
+        color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+      }
+
+      .te {
+        color: #646464;
+      }
+      
+      
