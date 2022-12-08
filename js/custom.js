@@ -19,13 +19,4 @@ $(function()
 })
 
 
-//	Preloader
-
-
-jQuery(window).load(function(){
-
-	$("#preloader").delay(1800).fadeOut("slow");
-
-});
-
 //preloader end
