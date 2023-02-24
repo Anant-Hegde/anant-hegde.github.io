@@ -74,11 +74,11 @@ h1,h2,h3,h4,h5
   -ms-transform: rotateX(0) rotateY(0) rotateZ(0);
   -o-transform: rotateX(0) rotateY(0) rotateZ(0);
   transform: rotateX(0) rotateY(0) rotateZ(0);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
   -webkit-transform-origin-x: 50%;
 }
 
@@ -177,7 +177,7 @@ h1,h2,h3,h4,h5
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
-        padding-bottom: 140px;
+        padding-bottom: 120px;
         text-align: center;
         position: relative;
 	}
@@ -198,14 +198,26 @@ h1,h2,h3,h4,h5
            #home h1 {
             font-size: 5vh;
            }
+
+           #home {
+            background: url('../images/small\ screen\ bg.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            text-align: center;
+            position: relative;
+        
+
+           }
     }
 
 
 
 #home h2
     {
-        padding-bottom: 100px;
-        background: linear-gradient(to right, #FF0073, #E24336, #9767ff, #b700ff,#00eeff, #00f87c);
+        padding-bottom: 80px;
+        background: linear-gradient(to left, #FF0073, #E24336, #b700ff, #3da1ff,#00eeff, #00f87c,#15ff00 );
         padding-bottom: 9px;
         font-size: 4vw;
         text-fill-color: transparent;
@@ -217,12 +229,15 @@ h1,h2,h3,h4,h5
         -ms-background-clip: text;
         -ms-text-fill-color: transparent;
         font-family: 'kaushan script', 'cursive';
+        text-shadow: 2px 20px 100px #00f9ff;
     }
 
     @media screen and (max-width: 600px) {
         #home h2 {
          font-size: 4vh;
         }
+
+
  }
 
 
@@ -291,23 +306,31 @@ h1,h2,h3,h4,h5
 
     .card1  {
         background: linear-gradient(to right,  #ED1A50, #E24336); 
-        height: 60vh;
+        height: 50vh;
     }
 
     .card2  {
         background: linear-gradient(to right,  #00eeff, #00f87c); 
-        height: 60vh;
+        height: 50vh;
     }
 
     .card3  {
         background: linear-gradient(to right, #0263ff, #30f8ff);
-        height: 60vh;
+        height: 50vh;
     }
 
     .card4  {
         background: linear-gradient(to right,  #b700ff, #5100ff);
-        height: 60vh;
+        height: 50vh;
     }
+
+    @media screen and (max-width: 600px) {
+        .card1, .card2, .card3, .card4 {
+         height: 50vh;
+        }
+
+
+ }
 /* end work */
 
 /* start about */
