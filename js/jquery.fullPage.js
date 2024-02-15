@@ -853,7 +853,7 @@
             } else if (hop == options.normalScrollElementTouchThreshold) {
                 return false;
             } else {
-                return checkParentForNormalScrollElement(parent, ++hop);
+                return checkParentForNormalScrollelement(parent, ++hop);
             }
         }
 
